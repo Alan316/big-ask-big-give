@@ -6,16 +6,17 @@
 
   /* line 7, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515.scss */
   .The, .Big, .Give {
-    font-size: 4em;
+    font-size: 3em;
   }
-}
-/* line 13, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515.scss */
-div.liveTextWrapper {
-  border-radius: 0px;
-  border: none;
-}
 
-/* line 18, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515.scss */
-div.hashtag {
-  font-size: 2em;
+  /* line 13, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515.scss */
+  div.liveTextWrapper {
+    border-radius: 0px;
+    border: none;
+  }
+
+  /* line 18, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515.scss */
+  .hashtag {
+    font-size: 2em;
+  }
 }

@@ -3,4 +3,9 @@
   .hashtag {
     font-size: 3em;
   }
+
+  /* line 6, ../bootstrap-sass-3.3.4/assets/stylesheets/media_738.scss */
+  nav {
+    height: 130px;
+  }
 }

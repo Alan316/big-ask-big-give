@@ -80,62 +80,61 @@ nav {
 /* line 95, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .columnRight {
   background-color: #061539;
-  color: white;
   margin-left: 15px;
 }
 
-/* line 102, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 101, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .The, .Big, .Ask, .Give {
   font: 4.4em "nimbus-sans", arial, sans-serif;
   padding-right: 8px;
   color: white;
 }
 
-/* line 108, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 107, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .Big {
   font: bolder 4.4em "nimbus-sans", arial, sans-serif;
 }
 
-/* line 113, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 112, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .Ask {
   color: white;
 }
 
-/* line 118, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 117, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .Give {
   font: bolder 4.4em "nimbus-sans", arial, sans-serif;
 }
 
-/* line 123, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 122, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .bodyCopy {
   font: normal lighter 1.4em/1.5em "nimbus-sans", arial, sans-serif;
   color: white;
 }
 
-/* line 128, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 127, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .buttonLead {
   margin-top: 20px;
 }
 
-/* line 132, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 131, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .buttonLeadOrange {
   margin-top: 20px;
 }
 
-/* line 136, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 135, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .btn {
   background-color: rgba(241, 96, 37, 0.99);
   border-color: rgba(241, 96, 37, 0.99);
 }
 
-/* line 141, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 140, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .btn:hover {
   background-color: white;
   border-color: rgba(241, 96, 37, 0.99);
   color: black;
 }
 
-/* line 147, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 146, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .btn:active {
   background-color: white;
   border-color: rgba(241, 96, 37, 0.99);
@@ -144,7 +143,7 @@ nav {
 
 /* Bubble with an isoceles triangle GREY
 ------------------------------------------ */
-/* line 156, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 155, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .speechBubbleGreen, .speechBubbleBlue {
   position: relative;
   padding: 15px;
@@ -157,7 +156,7 @@ nav {
 }
 
 /* creates triangle */
-/* line 168, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 167, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .speechBubbleGreen:after, .speechBubbleBlue:after {
   content: "";
   display: block;
@@ -174,24 +173,24 @@ nav {
 
 /* Bubble with an isoceles triangle BLUE
 ------------------------------------------ */
-/* line 184, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 183, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .speechBubbleBlue {
   background: #80a3d8;
 }
 
 /* creates triangle */
-/* line 191, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 190, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .speechBubbleBlue:after {
   border-left: 20px solid #80a3d8;
 }
 
-/* line 196, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 195, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .hashtag {
   font: bolder 10em "nimbus-sans", Verdana, sans-serif;
   color: white;
 }
 
-/* line 201, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 200, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .no-gutter [class*="col-"] {
   padding-right: 0;
   padding-left: 0;
@@ -199,12 +198,12 @@ nav {
   margin-right: 0;
 }
 
-/* line 208, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 207, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .rowTimeline {
   margin-top: 80px;
 }
 
-/* line 214, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 213, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .footer {
   margin-top: 70px;
   background-color: white;
@@ -214,7 +213,7 @@ nav {
 }
 
 /* IMAGE TRANSITIONS */
-/* line 225, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 224, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .donator {
   margin-left: -4px;
   opacity: 0;
@@ -228,7 +227,7 @@ nav {
   animation-fill-mode: forwards;
 }
 
-/* line 238, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 237, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .fadeIn-3s {
   -webkit-animation-duration: 3s;
   -moz-animation-duration: 3s;
@@ -237,55 +236,55 @@ nav {
 }
 
 @-webkit-keyframes fadeIn {
-  /* line 245, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+  /* line 244, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
   from {
     opacity: 0;
   }
 
-  /* line 245, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+  /* line 244, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
   to {
     opacity: 1;
   }
 }
 
 @-moz-keyframes fadeIn {
-  /* line 246, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+  /* line 245, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
   from {
     opacity: 0;
   }
 
-  /* line 246, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+  /* line 245, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
   to {
     opacity: 1;
   }
 }
 
 @-o-keyframes fadeIn {
-  /* line 247, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+  /* line 246, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
   from {
     opacity: 0;
   }
 
-  /* line 247, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+  /* line 246, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
   to {
     opacity: 1;
   }
 }
 
 @keyframes fadeIn {
-  /* line 248, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+  /* line 247, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
   from {
     opacity: 0;
   }
 
-  /* line 248, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+  /* line 247, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
   to {
     opacity: 1;
   }
 }
 
 /* DROP SHADOWS*/
-/* line 252, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 251, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .dropShadow {
   box-shadow: 4px 4px 8px #7A4028;
 }
