@@ -1,0 +1,171 @@
+/* Percents */
+$hundred: 100%; 
+
+/* Font Sets */
+$fontLegal: .8em Verdana,Geneva,"DejaVu Sans",sans-serif;
+$bodyCopyNormal: normal lighter 1.4em/1.5em "nimbus-sans",Verdana,sans-serif;
+$fontThe: 3.9em "nimbus-sans",Verdana,sans-serif;
+$fontBig: bolder 3.9em "nimbus-sans",Verdana,sans-serif;
+$fontQuote: normal 1.6em "liberation-serif",serif;
+
+/*Colors */
+$grey: #999;
+$green: #003300;
+$lightGreen: #80B280;
+$darkerBlue: #061539;
+$orange: #F15E22;
+$orangeFade: rgba(241, 96, 37, .85);
+$white: white;
+$lightBlue: #80A3D8;
+
+$center: 0, auto;
+
+body {
+	min-height: 100%;
+  height: 100%;
+  margin:0;
+  background-color: $orangeFade;
+}
+
+.container{
+	width:$hundred;
+	min-height: 100%;
+  height: 100%;
+}
+
+.row{
+	min-height: 100%;
+  height: 100%;
+}
+
+.socialNetIcon {
+  float:right; 
+  margin-top:10px;
+  margin-right: 10px;
+}
+
+nav{
+  background-color: $white; 
+  margin: 0px;
+  padding: 7px; 
+  height:75px;
+
+}
+
+.logoHolder{
+  padding-bottom: 20px;
+  text-align: center;
+  width:100;
+}
+
+.floatingLogo{
+  padding: 20px;
+  width:100;
+}
+
+.legalCopy{
+	font: $fontLegal;
+}
+
+
+/*Big Ask*/
+.columnLeft {
+	background-color: $green;
+  color: white;
+  margin: 0, auto;
+  padding: 14px;
+  min-height: 450px;
+}
+
+.columnRight {
+	background-color: $darkerBlue;
+    color: white;
+    margin: 0, auto;
+    padding: 14px;
+    min-height: 450px;
+}
+
+.The {
+	font: $fontThe;
+	padding-right: 8px;
+	color: white;
+}
+
+.Big{
+	font: $fontBig;
+	color: white;
+	padding-right: 8px;
+	color: white;
+}
+
+.Ask{
+	font: $fontBig;
+	color: white;
+}
+
+.Give{
+	font: $fontBig;
+	color: white;
+}
+
+.bodyCopy{
+	font: $bodyCopyNormal;
+	line-height: 1.5em
+}
+
+/* Bubble with an isoceles triangle GREY
+------------------------------------------ */
+
+.speechBubbleGreen{
+  position: relative;
+  padding: 15px;
+  margin: 1em 0 3em;
+  color: #000;
+  background: $lightGreen;
+  border-radius: 10px;
+  font: $fontQuote;
+  font-style: italic;
+}
+
+/* creates triangle */
+.speechBubbleGreen:after {
+  content: "";
+  display: block; /* reduce the damage in FF3.0 */
+  position: absolute;
+  right: 50px;
+  width: 0;
+  margin-top:-5px;
+  margin-left: -5px;
+    
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid $lightGreen;
+}
+
+/* Bubble with an isoceles triangle BLUE
+------------------------------------------ */
+
+.speechBubbleBlue {
+  position: relative;
+  padding: 15px;
+  margin: 1em 0 3em;
+  color: #000;
+  background: $lightBlue;
+  border-radius: 10px;
+  font: $fontQuote;
+  font-style: italic;
+}
+
+/* creates triangle */
+.speechBubbleBlue:after {
+  content: "";
+  display: block; /* reduce the damage in FF3.0 */
+  position: absolute;
+  right: 50px;
+  width: 0;
+  margin-top:-5px;
+  margin-left: -5px;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid $lightBlue;
+}

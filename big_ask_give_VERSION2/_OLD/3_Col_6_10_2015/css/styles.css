@@ -1,0 +1,155 @@
+/* Percents */
+/* Font Sets */
+/*Colors */
+/* line 18, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+html, body {
+  min-height: 100%;
+  height: 100%;
+}
+
+/* line 23, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.container {
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+}
+
+/* line 29, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.row {
+  min-height: 100%;
+  height: 100%;
+}
+
+/* line 35, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+#bigaskLogo, .footerLegal {
+  max-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* line 45, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+hr {
+  margin-top: -8px;
+  margin-bottom: 2px;
+}
+
+/* line 50, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.legalCopy {
+  font: 0.8em Verdana, Geneva, "DejaVu Sans", sans-serif;
+}
+
+/*Big Ask*/
+/* line 56, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.columnMiddle {
+  background-color: #555555;
+  min-height: 100%;
+  height: 100%;
+  border-left: 13px;
+  border-left-style: solid;
+  border-color: #ddd;
+  color: white;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+/* line 68, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.columnRight {
+  background-color: #061539;
+  min-height: 100%;
+  height: 100%;
+  color: white;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+/* line 77, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.The {
+  font: 3.9em "nimbus-sans", Verdana, sans-serif;
+  padding-right: 8px;
+  color: #f15e22;
+}
+
+/* line 83, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.Big {
+  font: bolder 3.9em "nimbus-sans", Verdana, sans-serif;
+  color: white;
+  padding-right: 8px;
+  color: #f15e22;
+}
+
+/* line 90, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.Ask {
+  font: bolder 3.9em "nimbus-sans", Verdana, sans-serif;
+  color: white;
+}
+
+/* line 95, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.Give {
+  font: bolder 3.9em "nimbus-sans", Verdana, sans-serif;
+  color: white;
+}
+
+/* line 100, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.bodyCopy {
+  font: normal lighter 1.6em/1.9em "nimbus-sans", Verdana, sans-serif;
+  line-height: 1.5em;
+  margin-top: 20px;
+}
+
+/* Bubble with an isoceles triangle GREY
+------------------------------------------ */
+/* line 109, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.speechBubbleGrey {
+  position: relative;
+  padding: 15px;
+  margin: 1em 0 3em;
+  color: #000;
+  background: #ccc;
+  border-radius: 10px;
+  font: normal 1.6em "liberation-serif", serif;
+  font-style: italic;
+}
+
+/* creates triangle */
+/* line 121, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.speechBubbleGrey:after {
+  content: "";
+  display: block;
+  /* reduce the damage in FF3.0 */
+  position: absolute;
+  bottom: -15px;
+  right: 50px;
+  width: 0;
+  border-width: 15px 15px 0;
+  border-style: solid;
+  border-color: #ccc transparent;
+}
+
+/* Bubble with an isoceles triangle BLUE
+------------------------------------------ */
+/* line 136, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.speechBubbleBlue {
+  position: relative;
+  padding: 15px;
+  margin: 1em 0 3em;
+  color: #000;
+  background: #80A3D8;
+  border-radius: 10px;
+  font: normal 1.6em "liberation-serif", serif;
+  font-style: italic;
+}
+
+/* creates triangle */
+/* line 148, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.speechBubbleBlue:after {
+  content: "";
+  display: block;
+  /* reduce the damage in FF3.0 */
+  position: absolute;
+  bottom: -15px;
+  right: 50px;
+  width: 0;
+  border-width: 15px 15px 0;
+  border-style: solid;
+  border-color: #80A3D8 transparent;
+}

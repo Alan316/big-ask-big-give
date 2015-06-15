@@ -1,0 +1,291 @@
+/* Percents */
+/* Font Sets */
+/*Colors */
+/* line 25, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+body {
+  margin: 0;
+  background-color: #f48051;
+  background-image: url("../images/subtle_white_mini_waves.png");
+}
+
+/* line 32, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.container {
+  width: 100%;
+}
+
+/* line 37, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.row, body, .container {
+  min-height: 100%;
+  height: 100%;
+}
+
+/* line 43, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.socialNetworking {
+  padding-top: 35px;
+}
+
+/* line 47, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.socialNetIcon {
+  margin-top: 18px;
+  float: right;
+}
+
+/* line 52, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.navbar {
+  border-radius: 0;
+  border-bottom: 5px solid #bbbbbb;
+}
+
+/* line 57, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+nav {
+  background-color: white;
+  margin: 0px;
+  padding: 7px;
+  height: 85px;
+}
+
+/* line 64, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.logoHolder {
+  padding-bottom: 10px;
+  text-align: center;
+  width: 100;
+}
+
+/* line 71, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.floatingLogo {
+  padding-top: 10px;
+  max-width: 240px;
+  width: auto;
+  margin-top: -114px;
+}
+
+/* line 78, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.legalCopy {
+  font: 0.8em Verdana, Geneva, "DejaVu Sans", sans-serif;
+}
+
+/*Big Ask*/
+/* line 84, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.columnLeft, .columnRight {
+  background-color: #003300;
+  color: white;
+  margin: 0, auto;
+  padding: 14px;
+  min-height: 450px;
+  border-radius: 14px;
+  min-height: 480px;
+}
+
+/*Big Give*/
+/* line 95, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.columnRight {
+  background-color: #061539;
+  color: white;
+  margin-left: 15px;
+}
+
+/* line 102, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.The, .Big, .Ask, .Give {
+  font: 4.4em "nimbus-sans", arial, sans-serif;
+  padding-right: 8px;
+  color: white;
+}
+
+/* line 108, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.Big {
+  font: bolder 4.4em "nimbus-sans", arial, sans-serif;
+}
+
+/* line 113, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.Ask {
+  color: white;
+}
+
+/* line 118, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.Give {
+  font: bolder 4.4em "nimbus-sans", arial, sans-serif;
+}
+
+/* line 123, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.bodyCopy {
+  font: normal lighter 1.4em/1.5em "nimbus-sans", arial, sans-serif;
+  color: white;
+}
+
+/* line 128, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.buttonLead {
+  margin-top: 20px;
+}
+
+/* line 132, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.buttonLeadOrange {
+  margin-top: 20px;
+}
+
+/* line 136, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.btn {
+  background-color: rgba(241, 96, 37, 0.99);
+  border-color: rgba(241, 96, 37, 0.99);
+}
+
+/* line 141, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.btn:hover {
+  background-color: white;
+  border-color: rgba(241, 96, 37, 0.99);
+  color: black;
+}
+
+/* line 147, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.btn:active {
+  background-color: white;
+  border-color: rgba(241, 96, 37, 0.99);
+  color: black;
+}
+
+/* Bubble with an isoceles triangle GREY
+------------------------------------------ */
+/* line 156, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.speechBubbleGreen, .speechBubbleBlue {
+  position: relative;
+  padding: 15px;
+  margin: 1em 0 3em;
+  color: #000;
+  background: #80b280;
+  border-radius: 10px;
+  font: normal 1.6em "liberation-serif", serif;
+  font-style: italic;
+}
+
+/* creates triangle */
+/* line 168, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.speechBubbleGreen:after, .speechBubbleBlue:after {
+  content: "";
+  display: block;
+  /* reduce the damage in FF3.0 */
+  position: absolute;
+  right: 50px;
+  width: 0;
+  margin-top: -5px;
+  margin-left: -5px;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #80b280;
+}
+
+/* Bubble with an isoceles triangle BLUE
+------------------------------------------ */
+/* line 184, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.speechBubbleBlue {
+  background: #80a3d8;
+}
+
+/* creates triangle */
+/* line 191, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.speechBubbleBlue:after {
+  border-left: 20px solid #80a3d8;
+}
+
+/* line 196, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.hashtag {
+  font: bolder 10em "nimbus-sans", Verdana, sans-serif;
+  color: white;
+}
+
+/* line 201, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.no-gutter [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 208, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.rowTimeline {
+  margin-top: 80px;
+}
+
+/* line 214, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.footer {
+  margin-top: 70px;
+  background-color: white;
+  border-top: 5px solid #bbb;
+  padding: 30px 20px 20px 20px;
+  font: 0.8em Verdana, Geneva, "DejaVu Sans", sans-serif;
+}
+
+/* IMAGE TRANSITIONS */
+/* line 225, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.donator {
+  margin-left: -4px;
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  -o-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+/* line 238, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.fadeIn-3s {
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -o-animation-duration: 3s;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fadeIn {
+  /* line 245, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 245, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  /* line 246, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 246, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  /* line 247, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 247, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  /* line 248, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 248, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+  to {
+    opacity: 1;
+  }
+}
+
+/* DROP SHADOWS*/
+/* line 252, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.dropShadow {
+  box-shadow: 4px 4px 8px #7A4028;
+}

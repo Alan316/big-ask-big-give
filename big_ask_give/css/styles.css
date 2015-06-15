@@ -1,0 +1,168 @@
+/* Percents */
+/* Font Sets */
+/*Colors */
+/* line 23, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+body {
+  min-height: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: rgba(241, 96, 37, 0.85);
+}
+
+/* line 30, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.container {
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+}
+
+/* line 36, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.row {
+  min-height: 100%;
+  height: 100%;
+}
+
+/* line 41, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.socialNetIcon {
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+/* line 47, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+nav {
+  background-color: white;
+  margin: 0px;
+  padding: 7px;
+  height: 75px;
+}
+
+/* line 55, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.logoHolder {
+  padding-bottom: 20px;
+  text-align: center;
+  width: 100;
+}
+
+/* line 61, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.floatingLogo {
+  padding: 20px;
+  width: 100;
+}
+
+/* line 66, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.legalCopy {
+  font: 0.8em Verdana, Geneva, "DejaVu Sans", sans-serif;
+}
+
+/*Big Ask*/
+/* line 72, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.columnLeft {
+  background-color: #003300;
+  color: white;
+  margin: 0, auto;
+  padding: 14px;
+  min-height: 450px;
+}
+
+/* line 80, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.columnRight {
+  background-color: #061539;
+  color: white;
+  margin: 0, auto;
+  padding: 14px;
+  min-height: 450px;
+}
+
+/* line 88, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.The {
+  font: 3.9em "nimbus-sans", Verdana, sans-serif;
+  padding-right: 8px;
+  color: white;
+}
+
+/* line 94, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.Big {
+  font: bolder 3.9em "nimbus-sans", Verdana, sans-serif;
+  color: white;
+  padding-right: 8px;
+  color: white;
+}
+
+/* line 101, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.Ask {
+  font: bolder 3.9em "nimbus-sans", Verdana, sans-serif;
+  color: white;
+}
+
+/* line 106, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.Give {
+  font: bolder 3.9em "nimbus-sans", Verdana, sans-serif;
+  color: white;
+}
+
+/* line 111, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.bodyCopy {
+  font: normal lighter 1.4em/1.5em "nimbus-sans", Verdana, sans-serif;
+  line-height: 1.5em;
+}
+
+/* Bubble with an isoceles triangle GREY
+------------------------------------------ */
+/* line 119, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.speechBubbleGreen {
+  position: relative;
+  padding: 15px;
+  margin: 1em 0 3em;
+  color: #000;
+  background: #80b280;
+  border-radius: 10px;
+  font: normal 1.6em "liberation-serif", serif;
+  font-style: italic;
+}
+
+/* creates triangle */
+/* line 131, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.speechBubbleGreen:after {
+  content: "";
+  display: block;
+  /* reduce the damage in FF3.0 */
+  position: absolute;
+  right: 50px;
+  width: 0;
+  margin-top: -5px;
+  margin-left: -5px;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #80b280;
+}
+
+/* Bubble with an isoceles triangle BLUE
+------------------------------------------ */
+/* line 148, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.speechBubbleBlue {
+  position: relative;
+  padding: 15px;
+  margin: 1em 0 3em;
+  color: #000;
+  background: #80a3d8;
+  border-radius: 10px;
+  font: normal 1.6em "liberation-serif", serif;
+  font-style: italic;
+}
+
+/* creates triangle */
+/* line 160, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.speechBubbleBlue:after {
+  content: "";
+  display: block;
+  /* reduce the damage in FF3.0 */
+  position: absolute;
+  right: 50px;
+  width: 0;
+  margin-top: -5px;
+  margin-left: -5px;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #80a3d8;
+}
