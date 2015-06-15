@@ -293,9 +293,10 @@ nav {
 /* line 8, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
 html, body {
   height: 100%;
+  min-height: 100%;
 }
 
-/* line 12, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
+/* line 13, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
 div.liveTextWrapper {
   background-color: white;
   border-radius: 14px;
@@ -304,43 +305,57 @@ div.liveTextWrapper {
   border-bottom-right-radius: 0;
   border-bottom: 0;
   padding: 20px;
+  height: 100%;
 }
 
-/* line 23, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
-.wrapper {
+/* line 24, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
+.row, body, .container {
   height: 100%;
   min-height: 100%;
 }
 
-/* line 28, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
+/* line 29, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
+.container-fluid {
+  height: 100%;
+  min-height: 100%;
+}
+
+/* line 34, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
 .The, .Big, .Ask, .Give, .Big, .Give {
   color: rgba(241, 96, 37, 0.99);
   font-size: 5em;
 }
 
-/* line 33, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
+/* line 39, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
 .liveTextArea {
   margin: 2.0em;
   font: normal lighter 1.1em/1.3em "nimbus-sans", arial, sans-serif;
-  height: 100%;
-  min-height: 100%;
 }
 
-/* line 40, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
+/* line 46, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
 h3 {
   font: bold 1.7em/0.8em "nimbus-sans", arial, sans-serif;
 }
 
-/* line 44, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
+/* line 50, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
 h2 {
   font: bold 2.2em/0.8em "nimbus-sans", arial, sans-serif;
   color: rgba(241, 96, 37, 0.99);
 }
 
-/* line 49, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
+/* line 55, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
 .donator {
   max-width: 100%;
   width: auto;
   margin: 2px 0 2px 0;
   padding: 0px;
+}
+
+/* line 62, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
+.floatingLogo2 {
+  width: 210px;
+  float: right;
+  display: inline-block;
+  margin-bottom: 15px;
+  margin-left: 5px;
 }

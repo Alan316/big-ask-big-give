@@ -6,8 +6,9 @@ $Heading2: bold 2.2em/.8em "nimbus-sans",arial,sans-serif;
 
 
 html, body {
-	height: 100%;
-}
+  height: 100%;
+    min-height: 100%;
+  }
 
 div.liveTextWrapper {
 	background-color: $white;
@@ -17,12 +18,17 @@ div.liveTextWrapper {
   	border-bottom-right-radius: 0;
   	border-bottom: 0;
   	padding: 20px;
+    height: 100%;
 }
 
+.row{
+   height: 100%;
+    min-height: 100%;
+}
 
-.wrapper {
-    height: 100%;
-    min-height: 100%
+.container-fluid{
+  height: 100%;
+    min-height: 100%;
 }
 
 .The, .Big, .Give {
@@ -33,9 +39,9 @@ div.liveTextWrapper {
 .liveTextArea{
 	margin: 2.0em;
 	font: $bodyCopy;
-	height: 100%;
-    min-height: 100%
-}
+
+
+  }
 
 h3{
 	font: $Heading1;
@@ -53,4 +59,10 @@ h2{
   padding: 0px;
 }
 
-
+.floatingLogo2 {
+  width: 210px;
+  float: right;
+  display: inline-block;
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
