@@ -1,0 +1,18 @@
+@media (max-width: 990px) {
+  /* line 2, ../bootstrap-sass-3.3.4/assets/stylesheets/media_990.scss */
+  .floatingLogo {
+    margin-top: -10px;
+    padding-bottom: 20px;
+  }
+
+  /* line 7, ../bootstrap-sass-3.3.4/assets/stylesheets/media_990.scss */
+  .columnRight {
+    border-radius: 0px;
+    margin-left: 0px;
+  }
+
+  /* line 12, ../bootstrap-sass-3.3.4/assets/stylesheets/media_990.scss */
+  .columnLeft {
+    border-radius: 0px;
+  }
+}
