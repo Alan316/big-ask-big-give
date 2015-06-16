@@ -1,42 +1,42 @@
 /* Percents */
 /* Font Sets */
 /*Colors */
-/* line 25, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 26, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 body {
   margin: 0;
   background-color: #f48051;
   background-image: url("../images/subtle_white_mini_waves.png");
 }
 
-/* line 32, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 34, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .container {
   width: 100%;
 }
 
-/* line 37, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 39, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .row, body, .container {
   min-height: 100%;
   height: 100%;
 }
 
-/* line 43, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 45, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .socialNetworking {
   padding-top: 35px;
 }
 
-/* line 47, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 49, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .socialNetIcon {
   margin-top: 18px;
   float: right;
 }
 
-/* line 52, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 54, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .navbar {
   border-radius: 0;
   border-bottom: 5px solid #bbbbbb;
 }
 
-/* line 57, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 59, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 nav {
   background-color: white;
   margin: 0px;
@@ -44,14 +44,14 @@ nav {
   height: 85px;
 }
 
-/* line 64, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 66, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .logoHolder {
   padding-bottom: 10px;
   text-align: center;
   width: 100;
 }
 
-/* line 71, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 73, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .floatingLogo {
   padding-top: 10px;
   max-width: 240px;
@@ -59,13 +59,13 @@ nav {
   margin-top: -114px;
 }
 
-/* line 78, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 80, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .legalCopy {
-  font: 0.8em Verdana, Geneva, "DejaVu Sans", sans-serif;
+  font: 0.8em/1.3em Verdana, Geneva, "DejaVu Sans", sans-serif;
 }
 
 /*Big Ask*/
-/* line 84, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 86, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .columnLeft, .columnRight {
   background-color: #003300;
   color: white;
@@ -77,87 +77,169 @@ nav {
 }
 
 /*Big Give*/
-/* line 95, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 97, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .columnRight {
   background-color: #061539;
   margin-left: 15px;
 }
 
-/* line 101, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 103, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .The, .Big, .Ask, .Give {
   font: 4.4em "nimbus-sans", arial, sans-serif;
   padding-right: 8px;
   color: white;
 }
 
-/* line 107, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 109, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .Big {
   font: bolder 4.4em "nimbus-sans", arial, sans-serif;
 }
 
-/* line 112, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 114, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .Ask {
   color: white;
 }
 
-/* line 117, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 119, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .Give {
   font: bolder 4.4em "nimbus-sans", arial, sans-serif;
 }
 
-/* line 122, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 124, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .bodyCopy {
-  font: normal lighter 1.4em/1.5em "nimbus-sans", arial, sans-serif;
+  font: normal lighter 1.3em/1.4em "nimbus-sans", arial, sans-serif;
   color: white;
 }
 
-/* line 127, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 129, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .buttonLead {
   margin-top: 20px;
 }
 
-/* line 131, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 133, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .buttonLeadOrange {
   margin-top: 20px;
 }
 
-/* line 135, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 137, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .btn {
   background-color: rgba(241, 96, 37, 0.99);
   border-color: rgba(241, 96, 37, 0.99);
 }
 
-/* line 140, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 142, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .btn:hover {
   background-color: white;
   border-color: rgba(241, 96, 37, 0.99);
   color: black;
 }
 
-/* line 146, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 148, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .btn:active {
   background-color: white;
   border-color: rgba(241, 96, 37, 0.99);
   color: black;
 }
 
+/* line 154, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.hashtag {
+  font: bolder 10em "nimbus-sans", arial, sans-serif;
+  color: white;
+}
+
+/* line 159, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.no-gutter [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 166, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.rowTimeline {
+  margin: 80px 0 0 0;
+}
+
+/* line 171, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.footer {
+  margin-top: 70px;
+  background-color: white;
+  border-top: 5px solid #bbb;
+  padding: 30px 20px 20px 20px;
+  font: 0.8em/1.3em Verdana, Geneva, "DejaVu Sans", sans-serif;
+}
+
+/* line 179, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.header {
+  font: bold 2.2em "nimbus-sans", arial, sans-serif;
+  padding-bottom: 0px;
+  font-weight: 700;
+}
+
 /* Bubble with an isoceles triangle GREY
 ------------------------------------------ */
-/* line 155, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 188, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .speechBubbleGreen, .speechBubbleBlue {
   position: relative;
   padding: 15px;
   margin: 1em 0 3em;
-  color: #000;
+  color: white;
   background: #80b280;
   border-radius: 10px;
-  font: normal 1.6em "liberation-serif", serif;
+  font: normal 1.6em/1.2em "liberation-serif", serif;
   font-style: italic;
+  letter-spacing: 1px;
 }
 
 /* creates triangle */
-/* line 167, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 201, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .speechBubbleGreen:after, .speechBubbleBlue:after {
+  content: "";
+  display: block;
+  /* reduce the damage in FF3.0 */
+  position: absolute;
+  right: 50px;
+  width: 0;
+}
+
+/* line 210, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.icon-bar {
+  color: black;
+  background-color: #777;
+}
+
+/* Bubble with an isoceles triangle BLUE
+------------------------------------------ */
+/* line 217, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.speechBubbleBlue {
+  background: #80a3d8;
+}
+
+/* creates triangle */
+/* line 224, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.speechBubbleBlue:after {
+  border-left: 20px solid #80a3d8;
+}
+
+/* SOCIAL Bubble with an isoceles triangle GREY
+------------------------------------------ */
+/* line 232, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.socialBubbleGreen, .socialBubbleBlue {
+  position: relative;
+  padding: 15px;
+  margin: 1em 0 0.95em;
+  color: white;
+  background: #80b280;
+  border-radius: 10px;
+  font: normal 1.6em/1.2em "liberation-serif", serif;
+  font-style: italic;
+  letter-spacing: 1px;
+  float: clear;
+}
+
+/* creates triangle */
+/* line 246, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.socialBubbleGreen:after, .socialBubbleBlue:after {
   content: "";
   display: block;
   /* reduce the damage in FF3.0 */
@@ -171,190 +253,79 @@ nav {
   border-left: 20px solid #80b280;
 }
 
-/* Bubble with an isoceles triangle BLUE
+/* SOCIAL Bubble with an isoceles triangle BLUE
 ------------------------------------------ */
-/* line 183, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
-.speechBubbleBlue {
+/* line 261, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.socialBubbleBlue {
   background: #80a3d8;
 }
 
 /* creates triangle */
-/* line 190, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
-.speechBubbleBlue:after {
+/* line 268, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.socialBubbleBlue:after {
   border-left: 20px solid #80a3d8;
 }
 
-/* line 195, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
-.hashtag {
-  font: bolder 10em "nimbus-sans", Verdana, sans-serif;
-  color: white;
-}
-
-/* line 200, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
-.no-gutter [class*="col-"] {
-  padding-right: 0;
-  padding-left: 0;
-  margin-left: 0;
-  margin-right: 0;
-}
-
-/* line 207, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
-.rowTimeline {
-  margin-top: 80px;
-}
-
-/* line 213, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
-.footer {
-  margin-top: 70px;
-  background-color: white;
-  border-top: 5px solid #bbb;
-  padding: 30px 20px 20px 20px;
-  font: 0.8em Verdana, Geneva, "DejaVu Sans", sans-serif;
-}
-
-/* IMAGE TRANSITIONS */
-/* line 224, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
-.donator {
-  margin-left: -4px;
-  opacity: 0;
-  -webkit-animation: fadeIn ease-in 1;
-  -moz-animation: fadeIn ease-in 1;
-  -o-animation: fadeIn ease-in 1;
-  animation: fadeIn ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  -o-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-/* line 237, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
-.fadeIn-3s {
-  -webkit-animation-duration: 3s;
-  -moz-animation-duration: 3s;
-  -o-animation-duration: 3s;
-  animation-duration: 3s;
-}
-
-@-webkit-keyframes fadeIn {
-  /* line 244, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
-  from {
-    opacity: 0;
-  }
-
-  /* line 244, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
-  to {
-    opacity: 1;
-  }
-}
-
-@-moz-keyframes fadeIn {
-  /* line 245, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
-  from {
-    opacity: 0;
-  }
-
-  /* line 245, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
-  to {
-    opacity: 1;
-  }
-}
-
-@-o-keyframes fadeIn {
-  /* line 246, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
-  from {
-    opacity: 0;
-  }
-
-  /* line 246, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  /* line 247, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
-  from {
-    opacity: 0;
-  }
-
-  /* line 247, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
-  to {
-    opacity: 1;
-  }
-}
-
 /* DROP SHADOWS*/
-/* line 251, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+/* line 275, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .dropShadow {
   box-shadow: 4px 4px 8px #7A4028;
 }
 
-/* line 8, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
-html, body {
-  height: 100%;
-  min-height: 100%;
+/* line 279, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
+.socialLinks {
+  font: normal lighter 1.3em/1.4em "nimbus-sans", arial, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  color: white;
+  clear: both;
 }
 
-/* line 13, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
+/* line 8, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
 div.liveTextWrapper {
   background-color: white;
   border-radius: 14px;
   border: 5px solid #bbb;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-  border-bottom: 0;
   padding: 20px;
-  height: 100%;
+  min-height: 40%;
+  margin-bottom: 90px;
 }
 
-/* line 24, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
-.row, body, .container {
-  height: 100%;
-  min-height: 100%;
-}
-
-/* line 29, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
-.container-fluid {
-  height: 100%;
-  min-height: 100%;
-}
-
-/* line 34, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
+/* line 23, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
 .The, .Big, .Ask, .Give, .Big, .Give {
-  color: rgba(241, 96, 37, 0.99);
+  color: #003300;
   font-size: 5em;
 }
 
-/* line 39, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
+/* line 28, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
 .liveTextArea {
   margin: 2.0em;
   font: normal lighter 1.1em/1.3em "nimbus-sans", arial, sans-serif;
+  margin-bottom: 150px;
 }
 
-/* line 46, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
+/* line 34, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
 h3 {
   font: bold 1.7em/0.8em "nimbus-sans", arial, sans-serif;
 }
 
-/* line 50, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
+/* line 38, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
 h2 {
   font: bold 2.2em/0.8em "nimbus-sans", arial, sans-serif;
   color: rgba(241, 96, 37, 0.99);
 }
 
-/* line 55, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
-.donator {
-  max-width: 100%;
-  width: auto;
-  margin: 2px 0 2px 0;
-  padding: 0px;
-}
-
-/* line 62, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
+/* line 44, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
 .floatingLogo2 {
   width: 210px;
   float: right;
   display: inline-block;
   margin-bottom: 15px;
   margin-left: 5px;
+}
+
+/* line 52, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
+#footer {
+  width: 100%;
+  margin: 0 auto;
 }

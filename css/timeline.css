@@ -81,7 +81,7 @@ p.footer {
   border-radius: 14px;
 }
 
-/* line 66, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
+/* line 65, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
 .timeline > li > .timeline-panel:before {
   position: absolute;
   top: 26px;
@@ -94,7 +94,7 @@ p.footer {
   content: " ";
 }
 
-/* line 77, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
+/* line 76, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
 .timeline > li > .timeline-panel:after {
   position: absolute;
   top: 27px;
@@ -107,7 +107,7 @@ p.footer {
   content: " ";
 }
 
-/* line 88, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
+/* line 87, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
 .timeline > li > .timeline-badge {
   color: #ffffff;
   width: 24px;
@@ -120,12 +120,12 @@ p.footer {
   z-index: 100;
 }
 
-/* line 99, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
+/* line 98, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
 }
 
-/* line 102, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
+/* line 101, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
 .timeline > li.timeline-inverted > .timeline-panel:before {
   border-left-width: 0;
   border-right-width: 15px;
@@ -133,7 +133,7 @@ p.footer {
   right: auto;
 }
 
-/* line 108, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
+/* line 107, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
 .timeline > li.timeline-inverted > .timeline-panel:after {
   border-left-width: 0;
   border-right-width: 14px;
@@ -141,23 +141,23 @@ p.footer {
   right: auto;
 }
 
-/* line 114, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
+/* line 113, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
 .timeline-badge > a {
   color: #ffffff !important;
 }
 
-/* line 117, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
+/* line 116, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
 .timeline-badge a:hover {
   color: #dcdcdc !important;
 }
 
-/* line 120, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
+/* line 119, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
 .timeline-title {
   margin-top: 0;
   color: inherit;
 }
 
-/* line 124, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
+/* line 123, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
 .timeline-heading h4 {
   font-weight: 700;
   font-size: 2.5em;
@@ -165,47 +165,47 @@ p.footer {
   color: #fff;
 }
 
-/* line 131, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
+/* line 130, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
 .timeline-body > p, .timeline-body > ul {
   padding: 10px 15px;
   margin-bottom: 0;
   color: #fff;
 }
 
-/* line 136, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
+/* line 135, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
 .timeline-footer {
   padding: 5px 15px;
   background-color: #f4f4f4;
 }
 
-/* line 140, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
+/* line 139, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
 .timeline-footer p {
   margin-bottom: 0;
 }
 
-/* line 141, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
+/* line 140, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
 .timeline-footer > a {
   cursor: pointer;
   text-decoration: none;
 }
 
-/* line 145, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
+/* line 144, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
 .timeline > li.timeline-inverted {
   float: right;
   clear: right;
 }
 
-/* line 149, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
+/* line 148, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
 .timeline > li:nth-child(2) {
   margin-top: 60px;
 }
 
-/* line 152, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
+/* line 151, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
 .timeline > li.timeline-inverted > .timeline-badge {
   left: -12px;
 }
 
-/* line 155, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
+/* line 154, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
 .no-float {
   float: none !important;
 }
@@ -256,7 +256,7 @@ p.footer {
         left: 28px;
     }
 }*/
-/* line 205, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
+/* line 204, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
 .fa {
   width: 20px;
   height: 20px;
@@ -267,4 +267,24 @@ p.footer {
   margin-left: 2px;
   margin-top: 15px;
   opacity: .76;
+}
+
+/* line 216, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
+.margin15 {
+  margin-top: 15px;
+}
+
+/* line 220, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
+.margin25 {
+  margin-top: 25px;
+}
+
+/* line 224, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
+.margin30 {
+  margin-top: 30px;
+}
+
+/* line 228, ../bootstrap-sass-3.3.4/assets/stylesheets/timeline.scss */
+.margin20 {
+  margin-top: 20px;
 }

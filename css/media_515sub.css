@@ -1,0 +1,54 @@
+@media (max-width: 515px) {
+  /* line 2, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515sub.scss */
+  nav {
+    height: 240px;
+    padding: 0;
+  }
+
+  /* line 7, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515sub.scss */
+  .btn {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    border-bottom: solid 1px #FF8533;
+  }
+
+  /* line 14, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515sub.scss */
+  .socialNetIcon {
+    width: 100%;
+  }
+
+  /* line 18, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515sub.scss */
+  .The, .Big, .Give {
+    font-size: 3em;
+  }
+
+  /* line 22, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515sub.scss */
+  .floatingLogo2 {
+    float: none;
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* line 29, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515sub.scss */
+  div.liveTextWrapper {
+    border-radius: 0px;
+    border: none;
+  }
+
+  /* line 34, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515sub.scss */
+  .hashtag {
+    font-size: 2em;
+  }
+}
+/* line 40, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515sub.scss */
+.footerLogos {
+  width: 25%;
+  margin-right: 5px;
+}
+
+/* line 45, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515sub.scss */
+.bbbLogo {
+  width: 15%;
+  margin-right: 5px;
+}

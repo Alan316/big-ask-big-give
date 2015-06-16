@@ -2,12 +2,13 @@
 $hundred: 100%; 
 
 /* Font Sets */
-$fontLegal: .8em Verdana,Geneva,"DejaVu Sans",sans-serif;
-$bodyCopyNormal: normal lighter 1.4em/1.5em "nimbus-sans",arial,sans-serif;
+$fontLegal: .8em/1.3em Verdana,Geneva,"DejaVu Sans",sans-serif;
+$bodyCopyNormal: normal lighter 1.3em/1.4em "nimbus-sans",arial,sans-serif;
 $fontThe: 4.4em "nimbus-sans",arial,sans-serif;
 $fontBig: bolder 4.4em "nimbus-sans",arial,sans-serif;
-$fontHUGE: bolder 10em "nimbus-sans",Verdana,sans-serif;
-$fontQuote: normal 1.6em "liberation-serif",serif;
+$fontHUGE: bolder 10em "nimbus-sans",arial,sans-serif;
+$fontQuote: normal 1.6em/1.2em "liberation-serif",serif;
+$fontHeader: bold 2.2em "nimbus-sans",arial,sans-serif;
 
 /*Colors */
 $grey: #999;
@@ -28,6 +29,7 @@ body {
   background-color: $orangeFade;
   background-image: url("../images/subtle_white_mini_waves.png");
 }
+
 
 .container{
 	width:$hundred;
@@ -149,49 +151,6 @@ nav{
   color: black;
   }
 
-/* Bubble with an isoceles triangle GREY
------------------------------------------- */
-
-.speechBubbleGreen{
-  position: relative;
-  padding: 15px;
-  margin: 1em 0 3em;
-  color: #000;
-  background: $lightGreen;
-  border-radius: 10px;
-  font: $fontQuote;
-  font-style: italic;
-}
-
-/* creates triangle */
-.speechBubbleGreen:after {
-  content: "";
-  display: block; /* reduce the damage in FF3.0 */
-  position: absolute;
-  right: 50px;
-  width: 0;
-  margin-top:-5px;
-  margin-left: -5px; 
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
-  border-left: 20px solid $lightGreen;
-}
-
-/* Bubble with an isoceles triangle BLUE
------------------------------------------- */
-
-.speechBubbleBlue {
-  @extend .speechBubbleGreen;
-  background: $lightBlue;
-  
-}
-
-/* creates triangle */
-.speechBubbleBlue:after {
-  @extend .speechBubbleGreen:after;
-  border-left: 20px solid $lightBlue;          
-}
-
 .hashtag {
   font: $fontHUGE;
   color: white;
@@ -205,10 +164,9 @@ nav{
 }
 
 .rowTimeline{
-  margin-top: 80px;
+  margin: 80px 0 0 0;
+
 }
-
-
 
 .footer {
   margin-top:70px;
@@ -218,36 +176,110 @@ nav{
   font: $fontLegal;
 }
 
-
-
-/* IMAGE TRANSITIONS */
-.donator {
-  margin-left: -4px;
-  opacity: 0;
-  -webkit-animation:fadeIn ease-in 1;
-  -moz-animation:fadeIn ease-in 1;
-  -o-animation:fadeIn ease-in 1;
-  animation:fadeIn ease-in 1;
-  -webkit-animation-fill-mode:forwards;
-  -moz-animation-fill-mode:forwards;
-  -o-animation-fill-mode:forwards;
-  animation-fill-mode:forwards;
+.header {
+  font: $fontHeader;
+  padding-bottom: 0px;
+  font-weight: 700;
 }
 
-.fadeIn-3s {
-        -webkit-animation-duration:3s;
-        -moz-animation-duration:3s;
-        -o-animation-duration:3s;
-        animation-duration:3s;
+/* Bubble with an isoceles triangle GREY
+------------------------------------------ */
+
+.speechBubbleGreen{
+  position: relative;
+  padding: 15px;
+  margin: 1em 0 3em;
+  color: white;
+  background: $lightGreen;
+  border-radius: 10px;
+  font: $fontQuote;
+  font-style: italic;
+  letter-spacing: 1px;
 }
 
-@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@-o-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+/* creates triangle */
+.speechBubbleGreen:after {
+  content: "";
+  display: block; /* reduce the damage in FF3.0 */
+  position: absolute;
+  right: 50px;
+  width: 0;
+
+}
+
+.icon-bar {
+    color: black;
+    background-color: #777;
+}
+
+/* Bubble with an isoceles triangle BLUE
+------------------------------------------ */
+.speechBubbleBlue {
+  @extend .speechBubbleGreen;
+  background: $lightBlue;
+  
+}
+
+/* creates triangle */
+.speechBubbleBlue:after {
+  @extend .speechBubbleGreen:after;
+  border-left: 20px solid $lightBlue;          
+}
+
+/* SOCIAL Bubble with an isoceles triangle GREY
+------------------------------------------ */
+
+.socialBubbleGreen{
+  position: relative;
+  padding: 15px;
+  margin: 1em 0 0.95em;
+  color: white;
+  background: $lightGreen;
+  border-radius: 10px;
+  font: $fontQuote;
+  font-style: italic;
+  letter-spacing: 1px;
+  float: clear;
+}
+
+/* creates triangle */
+.socialBubbleGreen:after {
+  content: "";
+  display: block; /* reduce the damage in FF3.0 */
+  position: absolute;
+  right: 50px;
+  width: 0;
+  margin-top:-5px;
+  margin-left: -5px; 
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid $lightGreen;
+}
+
+/* SOCIAL Bubble with an isoceles triangle BLUE
+------------------------------------------ */
+.socialBubbleBlue {
+  @extend .socialBubbleGreen;
+  background: $lightBlue;
+  
+}
+
+/* creates triangle */
+.socialBubbleBlue:after {
+  @extend .socialBubbleGreen:after;
+  border-left: 20px solid $lightBlue;          
+}
 
 
 /* DROP SHADOWS*/
  .dropShadow{
     box-shadow: 4px 4px 8px #7A4028;
+ }
+
+ .socialLinks{
+   font: $bodyCopyNormal;
+   margin-top: 0px;
+   margin-bottom: 15px;
+   color: white;
+   clear: both;
  }

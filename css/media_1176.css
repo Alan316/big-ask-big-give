@@ -5,13 +5,6 @@
   }
 }
 /* line 7, ../bootstrap-sass-3.3.4/assets/stylesheets/media_1176.scss */
-.columnRight {
-  margin-left: 15px;
-  margin-top: 15px;
-}
-
-/* line 12, ../bootstrap-sass-3.3.4/assets/stylesheets/media_1176.scss */
-.columnLeft {
-  margin-left: 0px;
-  margin-top: 15px;
+.columnRight .columnLeft {
+  margin: 15 0 0 15;
 }

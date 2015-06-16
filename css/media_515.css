@@ -2,6 +2,7 @@
   /* line 2, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515.scss */
   nav {
     height: 130px;
+    padding: 0;
   }
 
   /* line 7, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515.scss */
@@ -19,4 +20,15 @@
   .hashtag {
     font-size: 2em;
   }
+}
+/* line 24, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515.scss */
+.footerLogos {
+  width: 25%;
+  margin-right: 5px;
+}
+
+/* line 29, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515.scss */
+.bbbLogo {
+  width: 15%;
+  margin-right: 5px;
 }

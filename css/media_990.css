@@ -6,15 +6,8 @@
   }
 
   /* line 7, ../bootstrap-sass-3.3.4/assets/stylesheets/media_990.scss */
-  .columnRight {
+  .columnRight .columnLeft {
     border-radius: 0px;
     margin-left: 0px;
-    margin-bottom: 15px;
-  }
-
-  /* line 12, ../bootstrap-sass-3.3.4/assets/stylesheets/media_990.scss */
-  .columnLeft {
-    border-radius: 0px;
-    margin-bottom: 15px;
   }
 }
