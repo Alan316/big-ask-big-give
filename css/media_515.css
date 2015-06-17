@@ -1,33 +1,48 @@
 @media (max-width: 515px) {
   /* line 2, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515.scss */
   nav {
-    height: 130px;
+    height: 180px;
     padding: 0;
   }
 
   /* line 7, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515.scss */
-  .The, .Big, .Give {
-    font-size: 3em;
+  .btn {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    border-bottom: solid 1px #FF8533;
   }
 
-  /* line 13, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515.scss */
+  /* line 14, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515.scss */
+  .noResize {
+    width: 125px;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+
+  /* line 20, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515.scss */
+  .socialNetIcon {
+    width: 100%;
+  }
+
+  /* line 24, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515.scss */
   div.liveTextWrapper {
     border-radius: 0px;
     border: none;
   }
 
-  /* line 18, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515.scss */
+  /* line 29, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515.scss */
   .hashtag {
     font-size: 2em;
   }
 }
-/* line 24, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515.scss */
+/* line 35, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515.scss */
 .footerLogos {
   width: 25%;
   margin-right: 5px;
 }
 
-/* line 29, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515.scss */
+/* line 40, ../bootstrap-sass-3.3.4/assets/stylesheets/media_515.scss */
 .bbbLogo {
   width: 15%;
   margin-right: 5px;

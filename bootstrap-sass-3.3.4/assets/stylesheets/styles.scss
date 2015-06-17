@@ -7,7 +7,7 @@ $bodyCopyNormal: normal lighter 1.3em/1.4em "nimbus-sans",arial,sans-serif;
 $fontThe: 4.4em "nimbus-sans",arial,sans-serif;
 $fontBig: bolder 4.4em "nimbus-sans",arial,sans-serif;
 $fontHUGE: bolder 10em "nimbus-sans",arial,sans-serif;
-$fontQuote: normal 1.6em/1.2em "liberation-serif",serif;
+$fontQuote: normal 400 1.5em/1.25em "liberation-serif",serif;
 $fontHeader: bold 2.2em "nimbus-sans",arial,sans-serif;
 
 /*Colors */
@@ -27,7 +27,7 @@ body {
 	@extend .row;
   margin:0;
   background-color: $orangeFade;
-  background-image: url("../images/subtle_white_mini_waves.png");
+  background-image: url("../images/green_cup.png");
 }
 
 
@@ -182,7 +182,7 @@ nav{
   font-weight: 700;
 }
 
-/* Bubble with an isoceles triangle GREY
+/* Bubble with an isoceles triangle Green
 ------------------------------------------ */
 
 .speechBubbleGreen{

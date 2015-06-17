@@ -5,7 +5,7 @@
 body {
   margin: 0;
   background-color: #f48051;
-  background-image: url("../images/subtle_white_mini_waves.png");
+  background-image: url("../images/green_cup.png");
 }
 
 /* line 34, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
@@ -176,7 +176,7 @@ nav {
   font-weight: 700;
 }
 
-/* Bubble with an isoceles triangle GREY
+/* Bubble with an isoceles triangle Green
 ------------------------------------------ */
 /* line 188, ../bootstrap-sass-3.3.4/assets/stylesheets/styles.scss */
 .speechBubbleGreen, .speechBubbleBlue {
@@ -186,7 +186,7 @@ nav {
   color: white;
   background: #80b280;
   border-radius: 10px;
-  font: normal 1.6em/1.2em "liberation-serif", serif;
+  font: normal 400 1.5em/1.25em "liberation-serif", serif;
   font-style: italic;
   letter-spacing: 1px;
 }
@@ -231,7 +231,7 @@ nav {
   color: white;
   background: #80b280;
   border-radius: 10px;
-  font: normal 1.6em/1.2em "liberation-serif", serif;
+  font: normal 400 1.5em/1.25em "liberation-serif", serif;
   font-style: italic;
   letter-spacing: 1px;
   float: clear;
