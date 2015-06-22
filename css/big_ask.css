@@ -321,6 +321,11 @@ div.liveTextWrapper {
   margin-bottom: 90px;
 }
 
+/* line 17, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
+.row, body, .container {
+  padding: 0px;
+}
+
 /* line 23, ../bootstrap-sass-3.3.4/assets/stylesheets/big_ask.scss */
 .The, .Big, .Ask, .Give, .Big, .Give {
   color: #003300;
