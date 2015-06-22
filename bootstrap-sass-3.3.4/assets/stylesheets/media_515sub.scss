@@ -1,8 +1,13 @@
 @media (max-width: 515px) {
-	nav{
-		height: 240px;
+	.navbar{
+		height: 180px;
 		padding: 0;
 	}
+
+.row .container-fluid{
+  padding: 0;
+  margin:0;
+}
 
 .btn{
 	width:100%;
@@ -28,8 +33,18 @@
 
 div.liveTextWrapper {
   	border-radius: 0px;
-  	border: none;
+  	border-right: none;
+  	border-left: none;
+  	padding: 10px;
+  	margin-bottom: 35px;;
 }
+
+div.liveTextArea {
+  	padding: 10px;
+  	margin: 0;
+
+}
+
 
 .hashtag{
 	font-size: 2em;
