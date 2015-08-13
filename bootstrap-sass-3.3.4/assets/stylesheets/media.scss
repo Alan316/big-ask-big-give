@@ -1,0 +1,146 @@
+@media (max-width: 1360px) {
+  .hashtag{
+    font-size: 6em;
+  }
+}
+
+.columnRight .columnLeft{
+	margin: 15 0 0 15;
+}
+
+
+
+@media (max-width: 990px) {
+  .floatingLogo {
+    margin-top: -10px;
+    padding-bottom: 20px;
+  }
+.columnRight  {
+  	border-radius: 0px;
+    margin: 10px 0 0 0;
+}
+.columnLeft
+{
+  	border-radius: 0px;
+    margin: 10px 0 0 0;
+}
+}
+
+
+
+@media (max-width: 782px) {
+  .hashtag{
+    font-size: 3em;
+  }
+nav {
+	height: 130px;
+}
+.timeline-heading h4 {
+  font-weight: 700;
+  font-size:1.5em;
+}
+.timeline-body {
+	font-size: .75em;
+	line-height: 1.35em;
+}
+.timeline-badge{
+	display: none;
+}
+.timeline > li > .timeline-panel {
+    border: 2px solid #dcdcdc;
+    background: #A32900; /*#048499;*/
+    border-radius: 0;
+    width: 100%;
+    float: clear;
+}
+.timeline > li {
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+}
+.margin15{
+    margin-top: 0px;
+}
+.margin25{
+    margin-top: 0px;
+}
+.timeline-panel:before {
+    display: none;
+ }
+.timeline > li.timeline-inverted > .timeline-panel:after {
+    display: none;
+}
+.timeline > li.timeline-inverted > .timeline-panel:before{
+    display: none;
+}
+.timeline > li.timeline > .timeline-panel:after {
+    display: none;
+}
+.timeline > li.timeline > .timeline-panel:before{
+    display: none;
+}
+.timeline > li > .timeline-panel:after {
+    display: none;
+}
+.timeline > li > .timeline-panel:before {
+    display: none;
+}
+.timeline > li:nth-child(2) {
+    margin-top: 0px;
+}
+.margin30 {
+margin-top: 0px;
+}
+.margin20 {
+margin-top: 0px;
+}
+}
+
+
+
+
+@media (max-width: 515px) {
+	nav{
+		height: 180px;
+		padding: 0;
+	}
+.btn {
+	width:100%;
+	margin: 0;
+	border-radius: 0;
+	border-bottom: solid 1px #FF8533;
+}
+.noResize {
+	width: 125px;
+	border-radius: 4px;
+	margin-top: 10px;
+} 
+.socialNetIcon{
+	width: 100%;
+}
+div.liveTextWrapper {
+  	border-radius: 0px;
+  	border: none;
+}
+.hashtag{
+	font-size: 2em;
+}
+.The2, .Big2, .Give2 {
+	font-size: 3em;
+}
+div.liveTextWrapper2 {
+  	border-radius: 0px;
+  	border-right: none;
+  	border-left: none;
+  	padding: 10px;
+  	margin-bottom: 35px;;
+}
+div.liveTextArea2 {
+  	padding: 10px;
+  	margin: 0;
+}
+.row .container-fluid{
+  padding: 0;
+  margin:0;
+}
+}

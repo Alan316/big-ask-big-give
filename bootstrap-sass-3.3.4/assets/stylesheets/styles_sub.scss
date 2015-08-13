@@ -1,12 +1,12 @@
-@import "styles.scss";
-
+$green: #003300;
+$orange: rgba(241, 96, 37, .99);
 
 $bodyCopy: normal lighter 1.1em/1.3em "nimbus-sans",arial,sans-serif;
 $Heading1: bold 1.7em/.8em "nimbus-sans",arial,sans-serif;
 $Heading2: bold 2.2em/.8em "nimbus-sans",arial,sans-serif;
 
-div.liveTextWrapper {
-	background-color: $white;
+div.liveTextWrapper2 {
+  background-color: white;
   border-radius: 14px;
   border: 5px solid #bbb;
   padding: 20px;
@@ -14,43 +14,25 @@ div.liveTextWrapper {
   margin-bottom: 90px;
 }
 
-.row {
-    padding: 0px;
-}
 
-
-
-.The, .Big, .Give {
+.The2, .Big2, .Give2 {
 	color: $green;
 	font-size: 5em;
 }
 
-.liveTextArea{
+.liveTextArea2{
 	margin: 2.0em;
 	font: $bodyCopy;
-   margin-bottom: 150px;
+    margin-bottom: 150px;
  }
 
-h3{
+.h3_sub{
 	font: $Heading1;
 }
 
-h2{
+.h2_sub{
 	font: $Heading2;
 	color: $orange;
 }
 
 
-.floatingLogo2 {
-  width: 210px;
-  float: right;
-  display: inline-block;
-  margin-bottom: 15px;
-  margin-left: 5px;
-}
-
-#footer {
-  width: 100%;
-  margin: 0 auto;
- 
-}

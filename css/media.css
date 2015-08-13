@@ -1,0 +1,199 @@
+@media (max-width: 1360px) {
+  /* line 2, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  .hashtag {
+    font-size: 6em;
+  }
+}
+/* line 7, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+.columnRight .columnLeft {
+  margin: 15 0 0 15;
+}
+
+@media (max-width: 990px) {
+  /* line 14, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  .floatingLogo {
+    margin-top: -10px;
+    padding-bottom: 20px;
+  }
+
+  /* line 18, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  .columnRight {
+    border-radius: 0px;
+    margin: 10px 0 0 0;
+  }
+
+  /* line 23, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  .columnLeft {
+    border-radius: 0px;
+    margin: 10px 0 0 0;
+  }
+}
+@media (max-width: 782px) {
+  /* line 32, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  .hashtag {
+    font-size: 3em;
+  }
+
+  /* line 35, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  nav {
+    height: 130px;
+  }
+
+  /* line 38, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  .timeline-heading h4 {
+    font-weight: 700;
+    font-size: 1.5em;
+  }
+
+  /* line 42, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  .timeline-body {
+    font-size: .75em;
+    line-height: 1.35em;
+  }
+
+  /* line 46, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  .timeline-badge {
+    display: none;
+  }
+
+  /* line 49, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  .timeline > li > .timeline-panel {
+    border: 4px solid #A32900;
+    background: white;
+    /*#048499;*/
+    border-radius: 0;
+    width: 100%;
+    float: clear;
+  }
+
+  /* line 56, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  .timeline > li {
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+  }
+
+  /* line 61, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  .margin15 {
+    margin-top: 0px;
+  }
+
+  /* line 64, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  .margin25 {
+    margin-top: 0px;
+  }
+
+  /* line 67, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  .timeline-panel:before {
+    display: none;
+  }
+
+  /* line 70, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  .timeline > li.timeline-inverted > .timeline-panel:after {
+    display: none;
+  }
+
+  /* line 73, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  .timeline > li.timeline-inverted > .timeline-panel:before {
+    display: none;
+  }
+
+  /* line 76, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  .timeline > li.timeline > .timeline-panel:after {
+    display: none;
+  }
+
+  /* line 79, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  .timeline > li.timeline > .timeline-panel:before {
+    display: none;
+  }
+
+  /* line 82, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  .timeline > li > .timeline-panel:after {
+    display: none;
+  }
+
+  /* line 85, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  .timeline > li > .timeline-panel:before {
+    display: none;
+  }
+
+  /* line 88, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  .timeline > li:nth-child(2) {
+    margin-top: 0px;
+  }
+
+  /* line 91, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  .margin30 {
+    margin-top: 0px;
+  }
+
+  /* line 94, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  .margin20 {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 515px) {
+  /* line 103, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  nav {
+    height: 180px;
+    padding: 0;
+  }
+
+  /* line 107, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  .btn {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    border-bottom: solid 1px #FF8533;
+  }
+
+  /* line 113, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  .noResize {
+    width: 125px;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+
+  /* line 118, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  .socialNetIcon {
+    width: 100%;
+  }
+
+  /* line 121, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  div.liveTextWrapper {
+    border-radius: 0px;
+    border: none;
+  }
+
+  /* line 125, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  .hashtag {
+    font-size: 2em;
+  }
+
+  /* line 128, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  .The2, .Big2, .Give2 {
+    font-size: 3em;
+  }
+
+  /* line 131, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  div.liveTextWrapper2 {
+    border-radius: 0px;
+    border-right: none;
+    border-left: none;
+    padding: 10px;
+    margin-bottom: 35px;
+  }
+
+  /* line 138, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  div.liveTextArea2 {
+    padding: 10px;
+    margin: 0;
+  }
+
+  /* line 142, ../bootstrap-sass-3.3.4/assets/stylesheets/media.scss */
+  .row .container-fluid {
+    padding: 0;
+    margin: 0;
+  }
+}

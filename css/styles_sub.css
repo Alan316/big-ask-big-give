@@ -1,0 +1,33 @@
+/* line 8, ../bootstrap-sass-3.3.4/assets/stylesheets/styles_sub.scss */
+div.liveTextWrapper2 {
+  background-color: white;
+  border-radius: 14px;
+  border: 5px solid #bbb;
+  padding: 20px;
+  min-height: 40%;
+  margin-bottom: 90px;
+}
+
+/* line 18, ../bootstrap-sass-3.3.4/assets/stylesheets/styles_sub.scss */
+.The2, .Big2, .Give2 {
+  color: #003300;
+  font-size: 5em;
+}
+
+/* line 23, ../bootstrap-sass-3.3.4/assets/stylesheets/styles_sub.scss */
+.liveTextArea2 {
+  margin: 2.0em;
+  font: normal lighter 1.1em/1.3em "nimbus-sans", arial, sans-serif;
+  margin-bottom: 150px;
+}
+
+/* line 29, ../bootstrap-sass-3.3.4/assets/stylesheets/styles_sub.scss */
+.h3_sub {
+  font: bold 1.7em/0.8em "nimbus-sans", arial, sans-serif;
+}
+
+/* line 33, ../bootstrap-sass-3.3.4/assets/stylesheets/styles_sub.scss */
+.h2_sub {
+  font: bold 2.2em/0.8em "nimbus-sans", arial, sans-serif;
+  color: rgba(241, 96, 37, 0.99);
+}
